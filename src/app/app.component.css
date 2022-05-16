@@ -28,3 +28,13 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.userList {
+  margin-top: 20px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+table, th, td {
+  border: 1px solid black;
+}
