@@ -1,0 +1,15 @@
+<div class="parentBox">
+  <form [formGroup]="visa2FlyForm">
+    <div>
+      <label for="username">Username</label><br>
+      <input class="mt-10" id="username" type="text" formControlName="username">
+    </div>
+
+    <div class="mt-20">
+      <label for="password">Password</label><br>
+      <input class="mt-10" id="password" type="password" formControlName="password">
+    </div>
+
+    <button class="submit mt-20" type="submit" [disabled]="!(visa2FlyForm.valid)" (click)="formSubmit()">Submit</button>
+  </form>
+</div>
