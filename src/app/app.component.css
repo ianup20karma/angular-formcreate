@@ -30,11 +30,14 @@
 }
 
 .userList {
+  text-align: center;
   margin-top: 20px;
   position: absolute;
   top: 60%;
-  left: 40%;
+  left: 35%;
 }
 table, th, td {
+  width: 200px;
+  height: 30px;
   border: 1px solid black;
 }
