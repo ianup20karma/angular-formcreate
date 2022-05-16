@@ -12,4 +12,18 @@
 
     <button class="submit mt-20" type="submit" [disabled]="!(visa2FlyForm.valid)" (click)="formSubmit()">Submit</button>
   </form>
+
+</div>
+
+<div>
+  <table>
+    <thead>
+      <td>First Name</td>
+      <td>Last Name</td>
+    </thead>
+    <tbody *ngFor="let data of usersData">
+      <td>{{data.first_name}}</td>
+      <td>{{data.last_name}}</td>
+    </tbody>
+  </table>
 </div>
